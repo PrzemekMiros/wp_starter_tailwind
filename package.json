@@ -1,0 +1,19 @@
+{
+  "name": "custom-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./tailwind.css -o ./style.css --watch",
+    "browser": "browser-sync start --proxy http://custom-theme.local/ --files *.php, *.css, **/*.php, **/*.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}
